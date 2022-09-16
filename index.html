@@ -6,22 +6,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="all">
-    <p>Add New Product</p>
-    <div class="addNew">
-        <div class="bgr">
-            <input type="text" placeholder="new product" class="input" id="input">
-            <input type="button" value="Add" class="Btnadd" onclick="addBtn()">
-        </div>
-    </div>
-    <div class="name">
-        <span>Product Name</span>
-        <span style="color: #a83231">9 Product</span>
-    </div>
-    <div id="product">
-
-    </div>
-</div>
+<h1>Add New Product</h1>
+<p class="addNew"><input id="inputProduct" type="text">
+    <button onclick="addProduct()" class="Btnadd">Add</button>
+</p>
+<h1>Display All Product</h1>
+<div id="displayProduct"></div>
 <script src="main.js"></script>
 </body>
 </html>

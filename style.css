@@ -1,5 +1,5 @@
-.all{
-    width: 50%;
+table,tr,td{
+    border-collapse: collapse;
 }
 .addNew{
     background-color: #f2f2f2;
@@ -11,7 +11,7 @@
     border-radius: 2px;
     padding: 7px 15px 7px 15px;
 }
-.input {
+#inputProduct {
     padding: 5px 150px 5px 15px;
 }
 .name{
@@ -26,4 +26,9 @@
 }
 .product:nth-child(odd){
     background-color: #f2f2f2;
+}
+
+
+#inputProduct{
+
 }
